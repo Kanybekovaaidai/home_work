@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Document</title>
+    <style>
+        /* Общие стили для страницы */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        /* Стили для ссылок */
+        a {
+            display: block;
+            margin: 10px 0;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: white;
+            background-color: #0078d7;
+            border-radius: 5px;
+            width: 200px;
+            text-align: center;
+            font-size: 16px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        /* Эффект при наведении */
+        a:hover {
+            background-color: #005a9e;
+            transform: scale(1.1);
+        }
+
+        /* Исправление для ссылки с ошибкой */
+        a[href='/Exs/Ex5/Ex5.html'] {
+            background-color: #ff6f61; /* Цвет ошибки */
+        }
+
+        a[href='/Exs/Ex5/Ex5.html']:hover {
+            background-color: #d4554d;
+        }
+    </style>
+</head>
+<body>
+    <a href="/Exs/Ex1/Exercise1.html">Pages</a>
+    <a href="/Exs/Ex2/Table.html">Table</a>
+    <a href="/Exs/Ex3/input.html">Input</a>
+    <a href="/Exs/Ex4/vidlo.html">Video</a>
+    <a href="/Exs/Ex5/Ex5.html">Ex5</a>
+    <a href="/Exs/Ex6/click.html">Click</a>
+    <a href="/Exs/Ex7/prosent.html">Prosent</a>
+</body>
+</html>
